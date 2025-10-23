@@ -1,0 +1,65 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Folders
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+# NuGet v3
+.nuget/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET
+wwwroot/node_modules/
+wwwroot/dist/
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# Docker
+docker-compose.override.yml
+**/Dockerfile
+**/docker-compose.override.yml
+**/docker-compose.override.yaml
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# User secrets
+secrets.json
+appsettings.*.json
+
+# Entity Framework
+Migrations/
+*.efcore.dll
+*.efcore.pdb
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Others
+*.swp
+*.tmp
+*.bak
+.env

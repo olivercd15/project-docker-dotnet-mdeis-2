@@ -1,0 +1,24 @@
+services:
+  usuarios:
+    build:
+      context: ./Usuarios
+      dockerfile: Usuarios.WebAPI/Dockerfile
+    env_file: ./.env
+    ports:
+      - "5001:8080"
+
+  inventario:
+    build:
+      context: ./Inventario
+      dockerfile: Inventario.WebAPI/Dockerfile
+    env_file: ./.env
+    ports:
+      - "5002:8080"
+
+  ventas:
+    build:
+      context: ./Ventas
+      dockerfile: Ventas.WebAPI/Dockerfile
+    env_file: ./.env
+    ports:
+      - "5003:8080"
