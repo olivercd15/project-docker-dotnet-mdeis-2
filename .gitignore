@@ -11,14 +11,6 @@ obj/
 **/bin/
 **/obj/
 
-# Rider
-.idea/
-
-# NuGet
-*.nupkg
-packages/
-# NuGet v3
-.nuget/
 
 # .NET Core
 project.lock.json
@@ -34,11 +26,6 @@ wwwroot/dist/
 logs/
 **/logs/
 
-# Docker
-docker-compose.override.yml
-**/Dockerfile
-**/docker-compose.override.yml
-**/docker-compose.override.yaml
 
 # OS files
 Thumbs.db
